@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title> Membuat File HTML ke 2 - Form Page </title>
+</head>
+<body>
+  <h1>Buat Account Baru</h1>
+  <h2>Sign Up Form</h2>
+<table border="0" style="center">
+  <tr>
+  	<td>First Name</td>
+    <td>:</td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+  	<td>Last Name</td>
+    <td>:</td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+  	<td valign="top">Gender</td>
+    <td valign="top">:</td>
+    <td>
+        <form>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other  
+          </form> 
+    </td>
+  </tr>
+  <tr>
+  <td>Nationality</td>
+    <td>:</td>
+    <td>
+      <select>
+        <option>Malaysian</option>
+        <option>Indonesian</option>
+        <option>Japan</option>
+        <option>Singapore</option>
+        <option>Thailand</option>
+        <option>Philippine</option>
+	</tr>
+  <tr>
+    <td valign="top">Language Spoken</td>
+    <td valign="top">:</td>
+    <td>
+      <input type="radio" name="i">Bahasa Indonesia<br />
+      <input type="radio" name="e">English<br />
+      <input type="radio" name="o">Other
+    </td>
+  <tr>
+    <td valign="top">Bio</td>
+  </tr>
+  <tr>
+    <td><textarea cols="25" rows="5"></textarea></td>
+  </tr>
+</table>
+  <form method="get" action="welcome.html">
+    <button type="submit">Continue</button>
+</body>
+</html>

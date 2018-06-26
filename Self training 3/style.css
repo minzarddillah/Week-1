@@ -1,0 +1,49 @@
+header {
+  background-color: white;
+  border-bottom: 2px solid;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  left: 0;
+  padding: 10;
+}
+body{
+  padding: 0;
+}
+.header2 {
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: auto;
+  width: 100%;
+  position: relative;
+  top: 10px;
+  font-size: 30;
+}
+ul {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  float: right;
+	padding-right: 20;
+}
+.artikel {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 5px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.footer {
+  width: 110%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10;
+  position: relative;
+  bottom: -10;
+}
+h2 {
+  margin-top: 10;
+}
